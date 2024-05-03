@@ -1,115 +1,119 @@
 <!DOCTYPE html>
-<html lang="ru">  
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css">
-<title>English</title>
-<style>
-  body { font-family: Arial, sans-serif;background-color: rgb(187, 179, 179); }
-  .container { display: flex; justify-content: space-between; }
-  .left-side { width: 50%; }
-  .right-side { width: 50%; }
-  .word { margin-bottom: 20px; }
-  .word-title { font-size: 24px; color: #b17d7d; margin-bottom: 5px; }
-  .word-translation { font-size: 20px; color: #8a6c6c; }
-  .header { text-align: center; font-size: 30px; margin-top: 20px;color: rgb(135, 38, 38); }
-  .card{margin-left: 350px;}
-    .header1{text-align: center; font-size: 30px; margin-top: 20px;color: rgb(28, 28, 157);}
-    a{
-        text-decoration: none;
-      }
-      .ad{
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/air-astana.ico" />
+    <title>Develop English Level</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        /* Стили для основного контента */
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+        .content div {
+            cursor: pointer;
+            margin: 20px;
+            text-align: center;
+        }
+        .content img {
+            width: 800px; /* Увеличенный размер фотографии */
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .content p {
+            margin-top: 10px; /* Текст под фотографией */
+        }
+        /* Стили для карусели изображений */
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            margin-top: 20px;
+        }
+        .carousel img {
+            width: 100%;
+            transition: transform 0.5s ease;
+        }
+        /* Кнопки для переключения изображений */
+        .carousel button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+        .ad{
     text-align: center;
     color: rgb(193, 181, 181);
     background-color: rgb(128, 11, 11);
+    padding: 15px;
+   
     
     
     
     
-} 
-.navbar{
-    display: flex;
-    background-color:  #212529;
-    color: rgb(255, 255, 255);
-}
-.nav-list{
-    display: flex;
-    margin-right: 1000px;
-}
-.nav-list a{
-    display: block;
-    padding: 1em;
-    color: rgb(197, 197, 197);
-}
-.nav-list a:hover{
- color: rgb(80, 80, 80);
-
-}
-.navbar>img{
-    max-width: 139px;
-    margin-left: 10px;
+}   
+body{
+    background-color: rgb(208, 203, 203);
 }
 
-.nav-btn{
-    display: none;}
-    .nav-btn:hover{
-        background-color:rgb(133, 135,137);
-      }
-
-</style>
+.rt{
+    background-color: rgb(60, 18, 18);
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 10px;
+}
+.rt:hover{
+    color: rgb(103, 103, 191);
+}
+    </style>
 </head>
 <body>
-  <div class="navbar">
-    <img src="img/DREAMTEAM.png" alt="gg">
-    
-    <div class="drop">
-        <button class="nav-btn">
-            &#8801;
-        </button>
-        <div class="nav-list">
-            <h5><a href="index.html"target="_blank">HOME</a></h5>
-            <h5><a href="zxc.html"target="_blank">TIME MANAGMENT</a></h5>
-            
+    <h1 class="ad">Develop English Level</h1> 
+
+    <div class="content">
+        <div>
+            <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-768f/k2-_527540bc-3cd9-4828-ad6b-bf6c0899abbb.v1.jpg" alt="Изображение 1">
+            <h3 class="fgf"><a href="https://www.youtube.com/@LearnEnglishWithTVSeries"><h4 class="rt">Learn English with TV series</h4></a></h3>
+        </div>
+        <div>
+            <img src="https://i.ytimg.com/vi/sR4UYZPhTXY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBc6FWDR-NXVN6R_djJvtvunDOcNQ" alt="Изображение 2">
+            <h3 class="fgf"><a href="https://www.youtube.com/@TajTracks"><h4 class="rt">Learn English with songs</h4></a></h3>
+        </div>
+        <div>
+            <img src="https://i.ytimg.com/vi/GJHQ5EFEkBs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvOWvyVrjtBk4722rVd_czbCiYZA" alt="Изображение 3">
+            <h3 class="fgf"><a href="https://www.youtube.com/@easyenglishpodcast"><h4 class="rt">Learn English with Podcasts</h4></a></h3>
         </div>
     </div>
-  </div>
 
-    <h1 class="ad">DEVELOP ENGLISH LEVEL</h1>
-
-<h5>‎ </h5> 
-<h5>‎ </h5> 
-<h5>‎ </h5> 
-<h2><div class="header1" > <a href="https://www.youtube.com/@LearnEnglishWithTVSeries/featured">1)  Learn English With TV Series</div></h2></a>
-<h5>‎ </h5> 
-<div class="card" style="width: 50rem;">
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="https://hips.hearstapps.com/hmg-prod/images/rick-and-morty-s5-2-1625139647.jpg?crop=1xw:0.9956128509719222xh;center,top&resize=1200:*" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="https://tengrinews.kz/userdata/news/2023/news_516369/resize/photo_450616.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://i.pinimg.com/736x/34/29/5b/34295b21a1b71a821303f597545dce8a.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <div class="carousel">
+        <button class="prev">Назад</button>
+        <button class="next">Вперед</button>
+        <!-- Здесь будут изображения для карусели -->
     </div>
 
-    
-    
-
+    <script>
+        // JavaScript для добавления функциональности кнопок и карусели
+    </script>
 
 </body>
 </html>
